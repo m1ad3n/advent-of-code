@@ -2,7 +2,7 @@
 
 import sys
 
-infile = sys.argv[1] if len(sys.argv) >= 2 else '1.in'
+infile = sys.argv[1] if len(sys.argv) >= 2 else 'input'
 file = open(infile, 'r')
 data = file.readlines()
 file.close()
