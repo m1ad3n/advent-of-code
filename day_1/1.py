@@ -19,6 +19,12 @@ firstlist.sort()
 secondlist.sort()
 
 sum = 0
+for i in range(len(firstlist)):
+    sum += abs(firstlist[i] - secondlist[i])
+
+print(sum)
+
+sum = 0
 for x in firstlist:
     sum += x * secondlist.count(x)
 
